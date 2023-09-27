@@ -1,9 +1,10 @@
 package controllers
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models"
-	"github.com/gin-gonic/gin"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
+	"github.com/janrockdev/golang-mongodb-rest/models"
 )
 
 // Ping godoc

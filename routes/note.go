@@ -1,9 +1,9 @@
 package routes
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/controllers"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/middlewares/validators"
 	"github.com/gin-gonic/gin"
+	"github.com/janrockdev/golang-mongodb-rest/controllers"
+	"github.com/janrockdev/golang-mongodb-rest/middlewares/validators"
 )
 
 func NoteRoute(router *gin.RouterGroup, handlers ...gin.HandlerFunc) {

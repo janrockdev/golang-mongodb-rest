@@ -1,11 +1,12 @@
 package validators
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models"
+	"net/http"
+
 	"github.com/gin-gonic/gin"
 	validation "github.com/go-ozzo/ozzo-validation"
 	"github.com/go-ozzo/ozzo-validation/is"
-	"net/http"
+	"github.com/janrockdev/golang-mongodb-rest/models"
 )
 
 func PathIdValidator() gin.HandlerFunc {

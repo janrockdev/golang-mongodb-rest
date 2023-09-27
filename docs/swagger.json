@@ -4,17 +4,11 @@
     ],
     "swagger": "2.0",
     "info": {
-        "description": "GoLang - Gin - RESTful - MongoDB - Redis",
-        "title": "GoLang Rest API Starter Doc",
-        "termsOfService": "https://swagger.io/terms/",
+        "description": "GoLang - Gin - RESTful - MongoDB",
+        "title": "GoLang Rest API",
         "contact": {
-            "name": "Ebubekir Yiğit",
-            "url": "https://github.com/ebubekiryigit",
-            "email": "ebubekiryigit6@gmail.com"
-        },
-        "license": {
-            "name": "MIT License",
-            "url": "https://opensource.org/licenses/MIT"
+            "name": "Jan Rock",
+            "email": "rock@0xRock.com"
         },
         "version": "1.0"
     },

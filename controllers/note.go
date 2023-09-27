@@ -1,13 +1,14 @@
 package controllers
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/services"
-	"github.com/gin-gonic/gin"
-	"github.com/gin-gonic/gin/binding"
-	"go.mongodb.org/mongo-driver/bson/primitive"
 	"net/http"
 	"strconv"
+
+	"github.com/gin-gonic/gin"
+	"github.com/gin-gonic/gin/binding"
+	"github.com/janrockdev/golang-mongodb-rest/models"
+	"github.com/janrockdev/golang-mongodb-rest/services"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 // CreateNewNote godoc

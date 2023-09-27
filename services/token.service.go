@@ -2,13 +2,14 @@ package services
 
 import (
 	"errors"
-	db "github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models/db"
+	"time"
+
 	"github.com/golang-jwt/jwt/v4"
+	db "github.com/janrockdev/golang-mongodb-rest/models/db"
 	"github.com/kamva/mgm/v3"
 	"github.com/kamva/mgm/v3/field"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
-	"time"
 )
 
 // CreateToken create a new token record

@@ -41,15 +41,10 @@ definitions:
 host: localhost:8080
 info:
   contact:
-    email: ebubekiryigit6@gmail.com
-    name: Ebubekir Yiğit
-    url: https://github.com/ebubekiryigit
-  description: GoLang - Gin - RESTful - MongoDB - Redis
-  license:
-    name: MIT License
-    url: https://opensource.org/licenses/MIT
-  termsOfService: https://swagger.io/terms/
-  title: GoLang Rest API Starter Doc
+    email: rock@0xRock.com
+    name: Jan Rock
+  description: GoLang - Gin - RESTful - MongoDB
+  title: GoLang Rest API
   version: "1.0"
 paths:
   /auth/login:

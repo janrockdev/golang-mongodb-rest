@@ -1,11 +1,12 @@
 package middlewares
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models"
-	db "github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models/db"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/services"
-	"github.com/gin-gonic/gin"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
+	"github.com/janrockdev/golang-mongodb-rest/models"
+	db "github.com/janrockdev/golang-mongodb-rest/models/db"
+	"github.com/janrockdev/golang-mongodb-rest/services"
 )
 
 func JWTMiddleware() gin.HandlerFunc {

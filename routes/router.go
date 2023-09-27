@@ -1,14 +1,15 @@
 package routes
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/docs"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/middlewares"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/services"
+	"net/http"
+
 	"github.com/gin-gonic/gin"
+	"github.com/janrockdev/golang-mongodb-rest/docs"
+	"github.com/janrockdev/golang-mongodb-rest/middlewares"
+	"github.com/janrockdev/golang-mongodb-rest/models"
+	"github.com/janrockdev/golang-mongodb-rest/services"
 	swaggerfiles "github.com/swaggo/files"
 	ginSwagger "github.com/swaggo/gin-swagger"
-	"net/http"
 )
 
 func New() *gin.Engine {

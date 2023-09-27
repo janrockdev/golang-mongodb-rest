@@ -1,14 +1,15 @@
 package controllers
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models"
-	db "github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models/db"
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/services"
-	"github.com/gin-gonic/gin"
-	"github.com/gin-gonic/gin/binding"
-	"golang.org/x/crypto/bcrypt"
 	"net/http"
 	"strings"
+
+	"github.com/gin-gonic/gin"
+	"github.com/gin-gonic/gin/binding"
+	"github.com/janrockdev/golang-mongodb-rest/models"
+	db "github.com/janrockdev/golang-mongodb-rest/models/db"
+	"github.com/janrockdev/golang-mongodb-rest/services"
+	"golang.org/x/crypto/bcrypt"
 )
 
 // Register godoc

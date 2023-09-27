@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/controllers"
 	"github.com/gin-gonic/gin"
+	"github.com/janrockdev/golang-mongodb-rest/controllers"
 )
 
 func PingRoute(router *gin.RouterGroup) {

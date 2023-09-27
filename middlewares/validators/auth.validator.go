@@ -1,10 +1,11 @@
 package validators
 
 import (
-	"github.com/ebubekiryigit/golang-mongodb-rest-api-starter/models"
+	"net/http"
+
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"
-	"net/http"
+	"github.com/janrockdev/golang-mongodb-rest/models"
 )
 
 func RegisterValidator() gin.HandlerFunc {
