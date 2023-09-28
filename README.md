@@ -1,6 +1,8 @@
 GoLang + MongoDB RESTFul
 ----------------------------------------------------
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/janrockdev/golang-mongodb-rest)](https://goreportcard.com/report/github.com/janrockdev/golang-mongodb-rest)
+
 This project is a 'Boilerplate' or 'Starter' to build RESTful
 Applications and microservices using
 GoLang ([Gin](https://github.com/gin-gonic/gin) HTTP web framework), MongoDB.
